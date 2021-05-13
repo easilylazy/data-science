@@ -26,9 +26,16 @@
 
 
 ### [SVM](Recommend)
-利用已有方法 [NoisyWinds/Recommend](https://github.com/NoisyWinds/Recommend) 进行SVM的实际应用，包括：
-- 推荐系统
-- 图像压缩
+利用已有方法 [NoisyWinds/Recommend](https://github.com/NoisyWinds/Recommend) 进行SVD的实际应用，包括：
+- [推荐系统](Recommend)
+- [图像压缩](Recommend/matrix_factorization/svd/image_denoising)
+
+并独立实现：
+- 对推荐系统的处理进行数据可视化
+  ![recommend](res/recommend.png)
+- 对图像压缩进行优化，效率极大提高
+  ![optimize](res/optimize.png)
+
 
 
 
