@@ -1,0 +1,6 @@
+__pycache__/*
+matrix_factorization/svd/build/*
+result.txt
+*.pyd
+*c
+*.jpg

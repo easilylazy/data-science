@@ -25,5 +25,12 @@
 发现最初独立实现的QR效率远低于numpy的内置函数，通过分析，发现 Gram–Schmidt 的效率与行列向量数目相关
 
 
+### [SVM](Recommend)
+利用已有方法 [NoisyWinds/Recommend](https://github.com/NoisyWinds/Recommend) 进行SVM的实际应用，包括：
+- 推荐系统
+- 图像压缩
+
+
+
 
 
