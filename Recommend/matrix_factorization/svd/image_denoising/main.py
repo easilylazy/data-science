@@ -62,7 +62,6 @@ def main():
         img_path=sys.argv[1]
     else:
         img_path='test.jpg'
-    # img_path='C:\\Users\\cascara\\Pictures\\test\\boy.jpeg'
     try:
         image = Image.open(img_path)
     except:
@@ -82,7 +81,7 @@ def main():
     print('------init------\n time: ')
     print(deltaTime)
     # 原生 range 不支持浮点数，所以用 np.arange 代替
-    for c in np.arange(.1,.9,.2):
+    for c in np.arange(.1,1,.2):
         time=datetime.now()
         result = Compress.compress(c)
         deltaTime=(datetime.now()-time)
@@ -91,9 +90,6 @@ def main():
         print(result.shape)
         proImage=Image.fromarray(np.uint8(result))
         proImage.save('res/'+title+str(int(100 * c))+'%.jpg')
-
-
-
     plt.figure("img")
     plt.imshow(result)
     plt.show()

@@ -9,9 +9,35 @@
 
 ## 测试运行（run）
 - `python main.py [image path]`
+``` bash
 
 ## 优化更新 
 利用numpy的矩阵运算，将单次图片(750*500)处理压缩到1s内
+❯ python .\main.py boy.jpeg
+------init------
+ time:
+0:00:00.985616
+------compress rate 10------
+ time:
+0:00:00.051863
+(750, 500, 3)
+------compress rate 30------
+ time:
+0:00:00.052857
+(750, 500, 3)
+------compress rate 50------
+ time:
+0:00:00.046874
+(750, 500, 3)
+------compress rate 70------
+ time:
+0:00:00.043886
+(750, 500, 3)
+------compress rate 90------
+ time:
+0:00:00.051864
+(750, 500, 3)
+```
 ## 效果总结（summary）
 1.原始图片  
 
