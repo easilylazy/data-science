@@ -5,9 +5,13 @@
 ## 环境依赖（environment）
 - pillow or PIL 5.0.0 upper
 - numpy 1.14.2 upper
+- matplotlib 3.1.1 upper
 
 ## 测试运行（run）
-- `python main.py`
+- `python main.py [image path]`
+
+## 优化更新 
+利用numpy的矩阵运算，将单次图片(750*500)处理压缩到1s内
 ## 效果总结（summary）
 1.原始图片  
 
