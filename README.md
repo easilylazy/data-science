@@ -16,7 +16,7 @@
 ![for](res/forward_sub.png)
 2. 利用LU(PLU)中置换矩阵P的性质，有$P^{-1}=P^{T}$ 将求逆运算转换为求转置
 
-### [QR](QR.ipynb))
+### [QR](QR.ipynb)
 独立实现：
 1. 通过 Gram–Schmidt 进行QR分解
 2. 利用QR分解进行特征根的求取（QR algorithm）
